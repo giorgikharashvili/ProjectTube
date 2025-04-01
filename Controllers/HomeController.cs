@@ -21,9 +21,8 @@ namespace ProjectTube.Controllers
 
         public IActionResult Index()
         {
-            //var videoPosting = await _videoPostingRepository.GetAllAsync();
-            
-            
+            // var videoPosting = await _videoPostingRepository.GetAllAsync();
+
             
             return View();
         }
