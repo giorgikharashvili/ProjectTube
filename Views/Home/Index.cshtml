@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <div class="text-center">
+        U Must Be logged in to see the videos
+    </div>
+}
+else
+{
+    <div class="text-center">
+        Welcome
+    </div>
+}
