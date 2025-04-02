@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ProjectTube.Data;
 using ProjectTube.Models;
@@ -10,21 +11,33 @@ namespace ProjectTube.Controllers
     {
         private readonly IRepository<VideoPosting>  _videoPostingRepository;
         private readonly ILogger<HomeController> _logger;
+        private readonly UserManager<IdentityUser> _userManager;
         private readonly ApplicationDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context,  IRepository<VideoPosting> videoPostingRepository)
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context,  IRepository<VideoPosting> videoPostingRepository,  UserManager<IdentityUser> userManager)
         {
             _logger = logger;
             _context = context;
             _videoPostingRepository = videoPostingRepository;
+            _userManager = userManager;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            // var videoPosting = await _videoPostingRepository.GetAllAsync();
-
+            var videoPosting = await _videoPostingRepository.GetAllAsync();
+            var userId = _userManager.GetUserId(User);
+            ViewBag.CurrentUserId = userId;
             
-            return View();
+            foreach(var video in videoPosting)
+            {
+                var user = await _userManager.FindByIdAsync(video.UserId);
+                if(user != null)
+                {
+                    video.User = user;
+                }
+            }
+            
+            return View(videoPosting);
         }
 
         public IActionResult Privacy()

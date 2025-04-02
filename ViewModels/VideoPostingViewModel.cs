@@ -10,4 +10,6 @@ public class VideoPostingViewModel
     public DateTime PostedDate { get; set; } = DateTime.UtcNow;
     
     public string VideoPath { get; set; }
+    
+    public string ThumbnailPath { get; set; }
 }

@@ -18,11 +18,18 @@
             <span asp-validation-for="Description" class="text-danger"></span>
         </div>
 
-        <!-- Image Upload -->
+        <!-- Video Upload -->
         <div class="mb-4">
             <label asp-for="VideoPath" class="form-label fw-bold">Upload Video</label>
             <input type="file" name="videoFile" id="videoinput" class="form-control" accept="video/*"/>
             <span asp-validation-for="VideoPath" class="text-danger"></span>
+        </div>
+
+        <!-- Thumbnail Upload -->
+        <div class="mb-4">
+            <label asp-for="ThumbnailPath" class="form-label fw-bold">Upload Thumbnail</label>
+            <input type="file" name="thumbnailFile" id="thumbnailinput" class="form-control"/>
+            <span asp-validation-for="ThumbnailPath" class="text-danger"></span>
         </div>
 
         <!-- Submit Button -->

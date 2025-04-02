@@ -257,6 +257,30 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Id": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\0d31504f-c243-4ae8-a7df-27d116268dad.mp4",
+      "PackagePath": "staticwebassets\\uploads\\0d31504f-c243-4ae8-a7df-27d116268dad.mp4"
+    },
+    {
+      "Id": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\1dbfcf6c-a4d8-4398-8334-cd303c8a58bb.mp4",
+      "PackagePath": "staticwebassets\\uploads\\1dbfcf6c-a4d8-4398-8334-cd303c8a58bb.mp4"
+    },
+    {
+      "Id": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\92f194cc-8996-4c24-9ee3-ef73d43043e8.mp4",
+      "PackagePath": "staticwebassets\\uploads\\92f194cc-8996-4c24-9ee3-ef73d43043e8.mp4"
+    },
+    {
+      "Id": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\9cf220f8-a16c-46f5-b4c1-36745bda93f2.mp4",
+      "PackagePath": "staticwebassets\\uploads\\9cf220f8-a16c-46f5-b4c1-36745bda93f2.mp4"
+    },
+    {
+      "Id": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\thumbnails\\2cf4cd9d-521c-4ac3-b742-112d71ad84b4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\2cf4cd9d-521c-4ac3-b742-112d71ad84b4.jpg"
+    },
+    {
+      "Id": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\thumbnails\\ab3929f3-325f-42ce-85d2-26cbc7cac5ba.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\ab3929f3-325f-42ce-85d2-26cbc7cac5ba.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ProjectTube.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

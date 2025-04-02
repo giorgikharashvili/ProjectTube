@@ -1,16 +1,187 @@
-﻿@{
+﻿@using ProjectTube.ViewModels;
+@using ProjectTube.Constants;
+@model IEnumerable<VideoPosting>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 @if (!User.Identity.IsAuthenticated)
 {
-    <div class="text-center">
-        U Must Be logged in to see the videos
+    <div class="login-message">
+        <h2>You must be logged in to see the videos</h2>
+        <a href="/Account/Login" class="btn-login">Login</a>
     </div>
 }
 else
 {
-    <div class="text-center">
-        Welcome
+    <div class="container mt-4">
+        <div class="row">
+            @foreach (var videoPosting in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div id="video-posting-@videoPosting.Id" class="video-card">
+                        <!-- Video Thumbnail -->
+                        <a href="@Url.Action("VideoPage", "VideoPage", new { id = videoPosting.Id })">
+                            <img src="@videoPosting.ThumbnailPath" alt="Thumbnail" class="video-thumbnail" />
+                        </a>
+
+                        <div class="video-info">
+                            <div class="video-title">Title: @videoPosting.Title</div>
+                            <div class="video-date">Post Date: @videoPosting.PostedDate</div>
+                            <div class="video-description">Description: @videoPosting.Description</div>
+                        </div>
+
+                        <!-- Delete Button (Only visible for Admin or the video owner) -->
+                        <div class="delete-btn">
+                            @if (User.IsInRole(Roles.Admin) || videoPosting.User == ViewBag.CurrentUserId)
+                            {
+                                <button onclick="deleteVideoPosting(@videoPosting.Id)" class="btn btn-danger btn-block">Delete</button>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
     </div>
 }
+
+@section Scripts {
+    <script>
+        function deleteVideoPosting(id) {
+            if (confirm("Are you sure you want to delete this post?")) {
+                $.ajax({
+                    url: "@Url.Action("DeletePosting", "PostPage")/" + id,
+                    type: "delete",
+                    success: function (result) {
+                        $("#video-posting-" + id).remove();
+                    },
+                    error: function (err) {
+                        alert("An error occurred");
+                    }
+                });
+            }
+        }
+    </script>
+}
+
+
+
+
+
+<style>
+    /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Login Message */
+    .login-message {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .btn-login {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+        .btn-login:hover {
+            background-color: darkred;
+        }
+
+    /* Video Card */
+    .video-card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+        .video-card:hover {
+            transform: scale(1.05);
+        }
+
+    /* Video Info */
+    .video-info {
+        padding: 10px;
+    }
+
+    .video-title {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .video-description {
+        font-size: 14px;
+        color: gray;
+    }
+
+    .video-date {
+        font-size: 14px;
+        color: gray;
+    }
+
+    /* Thumbnail Styles */
+    .video-thumbnail {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* Buttons */
+    .delete-btn {
+        margin-top: 10px;
+    }
+
+    .btn-danger {
+        padding: 10px 15px;
+        background-color: #dc3545;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+    /* Button hover effects */
+    .btn-block {
+        display: block;
+        width: 100%;
+    }
+
+    .video-card .delete-btn {
+        padding: 10px;
+    }
+
+    @* /* Responsive Grid */ *@
+    @* @media (max-width: 768px) { *@
+    @*     .col-md-4 *@
+
+    @* { *@
+    @*     max-width: 100% !important; *@
+    @*     margin-bottom: 20px; *@
+    @* } *@
+
+    @* } *@
+</style>

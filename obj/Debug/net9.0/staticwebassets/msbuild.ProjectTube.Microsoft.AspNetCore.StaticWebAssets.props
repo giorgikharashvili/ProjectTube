@@ -1152,5 +1152,113 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ProjectTube.18exrcqan0.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0d31504f-c243-4ae8-a7df-27d116268dad.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProjectTube</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProjectTube</BasePath>
+      <RelativePath>uploads/0d31504f-c243-4ae8-a7df-27d116268dad.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>li6d8owzlj</Fingerprint>
+      <Integrity>w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0d31504f-c243-4ae8-a7df-27d116268dad.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1dbfcf6c-a4d8-4398-8334-cd303c8a58bb.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProjectTube</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProjectTube</BasePath>
+      <RelativePath>uploads/1dbfcf6c-a4d8-4398-8334-cd303c8a58bb.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>li6d8owzlj</Fingerprint>
+      <Integrity>w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1dbfcf6c-a4d8-4398-8334-cd303c8a58bb.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\92f194cc-8996-4c24-9ee3-ef73d43043e8.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProjectTube</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProjectTube</BasePath>
+      <RelativePath>uploads/92f194cc-8996-4c24-9ee3-ef73d43043e8.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>li6d8owzlj</Fingerprint>
+      <Integrity>w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\92f194cc-8996-4c24-9ee3-ef73d43043e8.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9cf220f8-a16c-46f5-b4c1-36745bda93f2.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProjectTube</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProjectTube</BasePath>
+      <RelativePath>uploads/9cf220f8-a16c-46f5-b4c1-36745bda93f2.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>li6d8owzlj</Fingerprint>
+      <Integrity>w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9cf220f8-a16c-46f5-b4c1-36745bda93f2.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\thumbnails\2cf4cd9d-521c-4ac3-b742-112d71ad84b4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProjectTube</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProjectTube</BasePath>
+      <RelativePath>uploads/thumbnails/2cf4cd9d-521c-4ac3-b742-112d71ad84b4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>l7psguxzkm</Fingerprint>
+      <Integrity>X3lSzVNxQwf+Rp96cAYhooYtPimPrHoZp9NzG1LZR40=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\thumbnails\2cf4cd9d-521c-4ac3-b742-112d71ad84b4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\thumbnails\ab3929f3-325f-42ce-85d2-26cbc7cac5ba.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProjectTube</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProjectTube</BasePath>
+      <RelativePath>uploads/thumbnails/ab3929f3-325f-42ce-85d2-26cbc7cac5ba.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>l7psguxzkm</Fingerprint>
+      <Integrity>X3lSzVNxQwf+Rp96cAYhooYtPimPrHoZp9NzG1LZR40=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\thumbnails\ab3929f3-325f-42ce-85d2-26cbc7cac5ba.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>

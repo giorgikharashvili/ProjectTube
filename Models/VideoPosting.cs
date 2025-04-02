@@ -15,8 +15,10 @@ public class VideoPosting
     public string Description { get; set; }
     [Required]
     public DateTime PostedDate { get; set; } = DateTime.UtcNow;
-    [AllowNull]
+    [Required]
     public string VideoPath { get; set; }
+    [Required]
+    public string ThumbnailPath { get; set; }
     public string UserId { get; set; } // depending on this UserId we are able to get an access to the identity user of this job posting 
     // vgulisxmob mtlian ROW-s databaseshi
     [ForeignKey(nameof(UserId))] // what is a ForeignKey
