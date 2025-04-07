@@ -30,11 +30,12 @@ else
                             <div class="video-title">Title: @videoPosting.Title</div>
                             <div class="video-date">Post Date: @videoPosting.PostedDate</div>
                             <div class="video-description">Description: @videoPosting.Description</div>
+                            <div class="video-description">Posted By: @videoPosting.User.UserName</div>
                         </div>
 
                         <!-- Delete Button (Only visible for Admin or the video owner) -->
                         <div class="delete-btn">
-                            @if (User.IsInRole(Roles.Admin) || videoPosting.User == ViewBag.CurrentUserId)
+                            @if (User.IsInRole(Roles.Admin) || videoPosting.UserId == ViewBag.CurrentUserId)
                             {
                                 <button onclick="deleteVideoPosting(@videoPosting.Id)" class="btn btn-danger btn-block">Delete</button>
                             }

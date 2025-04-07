@@ -1,4 +1,106 @@
-﻿@page
-@model ProjectTube.Views.VideoPage.VideoPageModel
-@{
-}
+﻿@model ProjectTube.Models.VideoPosting
+
+<div class="container mt-5">
+    <!-- Video Title -->
+    
+
+    <div class="video-page-content">
+        <!-- Video Player Section -->
+        <div class="video-player mb-4">
+            <video width="100%" controls>
+                <source src="@Model.VideoPath" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Video Information Section -->
+        <div class="video-info mb-4">
+            <h1>@Model.Title</h1>
+            <h3>Description:</h3>
+            <p>@Model.Description</p>
+            <p><strong>Post Date:</strong> @Model.PostedDate.ToString("MMMM dd, yyyy")</p>
+        </div>
+
+        <!-- Video Interaction Section (like YouTube) -->
+        <div class="video-interaction">
+            <button class="btn btn-danger btn-sm mr-2">Like</button>
+            <button class="btn btn-secondary btn-sm">Dislike</button>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+    }
+
+    /* Container Styling */
+    .container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Video Page Content (Move everything to the left but with padding) */
+    .video-page-content {
+        max-width: 850px; /* Set a max width for the content */
+        margin-left: 20px; /* Move the content slightly left */
+        margin-right: 20px;
+    }
+
+    /* Video Player Styles */
+    .video-player {
+        background-color: black;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    /* Video Info Section */
+    .video-info h3 {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .video-info p {
+        font-size: 1rem;
+        color: #555;
+        line-height: 1.5;
+    }
+
+   
+    
+
+    /* Button Styles (Like/Dislike) */
+    .video-interaction {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    .btn-danger {
+        background-color: #ff4b5c;
+        border-color: #ff4b5c;
+    }
+
+        .btn-danger:hover {
+            background-color: #e03e49;
+            border-color: #e03e49;
+        }
+
+    .btn-secondary {
+        background-color: #ddd;
+        border-color: #ddd;
+    }
+
+        .btn-secondary:hover {
+            background-color: #bbb;
+            border-color: #bbb;
+        }
+</style>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VmYW8OgUugNQdWOZrw0IBMNcvhBDpO5EuVKBpbSOOs0=",
+  "Hash": "KSvkLpfR/rLEXt1W4aM3JeckOXGIvd9Eo312l03s5tc=",
   "Source": "ProjectTube",
   "BasePath": "_content/ProjectTube",
   "Mode": "Default",
@@ -5351,6 +5351,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\0a7d9783-a4e2-447e-879a-8ac6888799c6.mp4",
+      "SourceId": "ProjectTube",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\",
+      "BasePath": "_content/ProjectTube",
+      "RelativePath": "uploads/0a7d9783-a4e2-447e-879a-8ac6888799c6#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "li6d8owzlj",
+      "Integrity": "w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\0a7d9783-a4e2-447e-879a-8ac6888799c6.mp4"
+    },
+    {
       "Identity": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\0d31504f-c243-4ae8-a7df-27d116268dad.mp4",
       "SourceId": "ProjectTube",
       "SourceType": "Discovered",
@@ -5391,6 +5412,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\1dbfcf6c-a4d8-4398-8334-cd303c8a58bb.mp4"
+    },
+    {
+      "Identity": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\713b0f43-2153-44c1-a48c-1abc9583f2f7.mp4",
+      "SourceId": "ProjectTube",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\",
+      "BasePath": "_content/ProjectTube",
+      "RelativePath": "uploads/713b0f43-2153-44c1-a48c-1abc9583f2f7#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "li6d8owzlj",
+      "Integrity": "w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\713b0f43-2153-44c1-a48c-1abc9583f2f7.mp4"
     },
     {
       "Identity": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\92f194cc-8996-4c24-9ee3-ef73d43043e8.mp4",
@@ -5435,6 +5477,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\9cf220f8-a16c-46f5-b4c1-36745bda93f2.mp4"
     },
     {
+      "Identity": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\thumbnails\\20d8f23c-5979-4506-83bf-c29c7920b898.jpg",
+      "SourceId": "ProjectTube",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\",
+      "BasePath": "_content/ProjectTube",
+      "RelativePath": "uploads/thumbnails/20d8f23c-5979-4506-83bf-c29c7920b898#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gt41qh78es",
+      "Integrity": "XIMWs3Zu0wqHaj2BKTk0DqQtTOxoQUCrBUPxudL8SqE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\thumbnails\\20d8f23c-5979-4506-83bf-c29c7920b898.jpg"
+    },
+    {
       "Identity": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\thumbnails\\2cf4cd9d-521c-4ac3-b742-112d71ad84b4.jpg",
       "SourceId": "ProjectTube",
       "SourceType": "Discovered",
@@ -5454,6 +5517,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\thumbnails\\2cf4cd9d-521c-4ac3-b742-112d71ad84b4.jpg"
+    },
+    {
+      "Identity": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\thumbnails\\898a4d04-54e6-4d6d-a4b0-69249d955bc5.jpg",
+      "SourceId": "ProjectTube",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\",
+      "BasePath": "_content/ProjectTube",
+      "RelativePath": "uploads/thumbnails/898a4d04-54e6-4d6d-a4b0-69249d955bc5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2b7sgn1dna",
+      "Integrity": "/i8KJMvrQUNmNUo6L8ShM/o8L7yYSkiJT6vlsxJeuGI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\thumbnails\\898a4d04-54e6-4d6d-a4b0-69249d955bc5.jpg"
     },
     {
       "Identity": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\thumbnails\\ab3929f3-325f-42ce-85d2-26cbc7cac5ba.jpg",
@@ -35495,6 +35579,88 @@
       ]
     },
     {
+      "Route": "uploads/0a7d9783-a4e2-447e-879a-8ac6888799c6.li6d8owzlj.mp4",
+      "AssetFile": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\0a7d9783-a4e2-447e-879a-8ac6888799c6.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1334660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 16:12:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "li6d8owzlj"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/0a7d9783-a4e2-447e-879a-8ac6888799c6.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0a7d9783-a4e2-447e-879a-8ac6888799c6.mp4",
+      "AssetFile": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\0a7d9783-a4e2-447e-879a-8ac6888799c6.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1334660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 16:12:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk="
+        }
+      ]
+    },
+    {
       "Route": "uploads/0d31504f-c243-4ae8-a7df-27d116268dad.li6d8owzlj.mp4",
       "AssetFile": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\0d31504f-c243-4ae8-a7df-27d116268dad.mp4",
       "Selectors": [],
@@ -35645,6 +35811,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 02 Apr 2025 12:51:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/713b0f43-2153-44c1-a48c-1abc9583f2f7.li6d8owzlj.mp4",
+      "AssetFile": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\713b0f43-2153-44c1-a48c-1abc9583f2f7.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1334660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:02:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "li6d8owzlj"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/713b0f43-2153-44c1-a48c-1abc9583f2f7.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/713b0f43-2153-44c1-a48c-1abc9583f2f7.mp4",
+      "AssetFile": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\713b0f43-2153-44c1-a48c-1abc9583f2f7.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1334660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w3WUrm+Gymf4qczTr5L22mZ54OOoqfq7duoeCHnIGvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35823,6 +36071,88 @@
       ]
     },
     {
+      "Route": "uploads/thumbnails/20d8f23c-5979-4506-83bf-c29c7920b898.gt41qh78es.jpg",
+      "AssetFile": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\thumbnails\\20d8f23c-5979-4506-83bf-c29c7920b898.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6068782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XIMWs3Zu0wqHaj2BKTk0DqQtTOxoQUCrBUPxudL8SqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 16:12:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gt41qh78es"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/thumbnails/20d8f23c-5979-4506-83bf-c29c7920b898.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XIMWs3Zu0wqHaj2BKTk0DqQtTOxoQUCrBUPxudL8SqE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/thumbnails/20d8f23c-5979-4506-83bf-c29c7920b898.jpg",
+      "AssetFile": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\thumbnails\\20d8f23c-5979-4506-83bf-c29c7920b898.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6068782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XIMWs3Zu0wqHaj2BKTk0DqQtTOxoQUCrBUPxudL8SqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 16:12:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XIMWs3Zu0wqHaj2BKTk0DqQtTOxoQUCrBUPxudL8SqE="
+        }
+      ]
+    },
+    {
       "Route": "uploads/thumbnails/2cf4cd9d-521c-4ac3-b742-112d71ad84b4.jpg",
       "AssetFile": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\thumbnails\\2cf4cd9d-521c-4ac3-b742-112d71ad84b4.jpg",
       "Selectors": [],
@@ -35901,6 +36231,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-X3lSzVNxQwf+Rp96cAYhooYtPimPrHoZp9NzG1LZR40="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/thumbnails/898a4d04-54e6-4d6d-a4b0-69249d955bc5.2b7sgn1dna.jpg",
+      "AssetFile": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\thumbnails\\898a4d04-54e6-4d6d-a4b0-69249d955bc5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/i8KJMvrQUNmNUo6L8ShM/o8L7yYSkiJT6vlsxJeuGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:02:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2b7sgn1dna"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/thumbnails/898a4d04-54e6-4d6d-a4b0-69249d955bc5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/i8KJMvrQUNmNUo6L8ShM/o8L7yYSkiJT6vlsxJeuGI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/thumbnails/898a4d04-54e6-4d6d-a4b0-69249d955bc5.jpg",
+      "AssetFile": "D:\\Visual Studio IDE\\repos\\ProjectTube\\ProjectTube\\wwwroot\\uploads\\thumbnails\\898a4d04-54e6-4d6d-a4b0-69249d955bc5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/i8KJMvrQUNmNUo6L8ShM/o8L7yYSkiJT6vlsxJeuGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:02:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/i8KJMvrQUNmNUo6L8ShM/o8L7yYSkiJT6vlsxJeuGI="
         }
       ]
     },
