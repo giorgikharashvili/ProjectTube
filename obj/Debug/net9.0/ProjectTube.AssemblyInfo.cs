@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectTube")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b0fd4ce15cfe46b400c7fdc819103ea1a273668")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d10d2e86c9ce3aa5620a517f8a1dadf901c35d80")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectTube")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectTube")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
