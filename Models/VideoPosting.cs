@@ -21,7 +21,7 @@ public class VideoPosting
     public string ThumbnailPath { get; set; }
     public string UserId { get; set; } // depending on this UserId we are able to get an access to the identity user of this job posting 
     // vgulisxmob mtlian ROW-s databaseshi
-    [ForeignKey(nameof(UserId))] // what is a ForeignKey
+    [ForeignKey(nameof(UserId))] 
     public IdentityUser User { get; set; }
 
 }
