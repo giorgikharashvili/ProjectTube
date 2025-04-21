@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using ProjectTube.Data;
 using ProjectTube.Models;
 using ProjectTube.Repositories;
+using ProjectTube.Services;
 
 namespace ProjectTube.Controllers
 {
@@ -14,16 +15,21 @@ namespace ProjectTube.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly ApplicationDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context,  IRepository<VideoPosting> videoPostingRepository,  UserManager<IdentityUser> userManager)
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context,  IRepository<VideoPosting> videoPostingRepository,
+            UserManager<IdentityUser> userManager)
         {
             _logger = logger;
             _context = context;
             _videoPostingRepository = videoPostingRepository;
             _userManager = userManager;
+           
         }
 
         public async Task<IActionResult> Index()
         {
+         
+
+
             var videoPosting = await _videoPostingRepository.GetAllAsync();
             var userId = _userManager.GetUserId(User);
             ViewBag.CurrentUserId = userId;

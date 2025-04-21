@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using ProjectTube.Data;
 using ProjectTube.Models;
 using ProjectTube.Repositories;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 
 namespace ProjectTube
@@ -14,15 +15,17 @@ namespace ProjectTube
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Configuration.AddUserSecrets<Program>();
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("Database"));
+                options.UseSqlServer(builder.Configuration["Database"]);
             });
 
-            
+          
 
             // Without this it will give error when implementing in controller or anywhere else
             builder.Services.AddScoped<IRepository<VideoPosting>,  VideoPostingRepository>(); 

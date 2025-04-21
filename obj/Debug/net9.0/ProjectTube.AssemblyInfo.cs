@@ -12,10 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("fd06ef1e-f0bd-49b6-8db3-8caad30e8c1e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectTube")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05dab77f98716400994bc72a2a557b454c176c64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b0fd4ce15cfe46b400c7fdc819103ea1a273668")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectTube")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectTube")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
