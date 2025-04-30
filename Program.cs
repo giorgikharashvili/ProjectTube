@@ -78,8 +78,7 @@ namespace ProjectTube
                 var services = scope.ServiceProvider;
 
                 await RoleSeeder.SeedRolesAsync(services);
-                await UserSeeder.SeedUsersAsync(services); // what are services what are we passing to UserSeeder.SeedUserAsync function
-
+                await UserSeeder.SeedUsersAsync(services);
             }
 
             app.UseHttpsRedirection();
